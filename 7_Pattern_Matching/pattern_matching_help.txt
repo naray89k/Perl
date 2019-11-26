@@ -1,0 +1,67 @@
+
+Table 7.1. Pattern anchors in Perl.
+------------------------------------------------------------------
+Anchor      | Description
+------------------------------------------------------------------
+^ or \A     | Match at beginning of string only
+$ or \Z     | Match at end of string only
+\b          | Match on word boundary
+\B          | Match inside word
+------------------------------------------------------------------
+                    **************
+
+
+Table 7.2. Character-range escape sequences.
+-------------------------------------------------------------------
+Escape sequence | Description Range
+-------------------------------------------------------------------
+\d				| 	Any digit [0-9]
+\D				|	Anything other than a digit [^0-9]
+\w				|	Any word character [_0-9a-zA-Z]
+\W				|	Anything not a word character [^_0-9a-zA-Z]
+\s				|	White space [ \r\t\n\f]
+\S				|	Anything other than white space [^ \r\t\n\f]
+-------------------------------------------------------------------
+                    **************
+
+
+Table 7.3. The precedence of pattern-matching special characters.
+----------------------------------------------------
+Special character | Description
+----------------------------------------------------
+()				  | Pattern memory
++			      |	* ? {} Number of occurrences
+^				  |	$ \b \B Pattern anchors
+|				  |	Alternatives
+----------------------------------------------------
+                    **************
+
+
+Table 7.4. Pattern-matching options.
+--------------------------------------------
+Option  | Description
+--------------------------------------------
+g       | Match all possible patterns
+i		| Ignore case
+m		| Treat string as multiple lines
+o		| Only evaluate once
+s		| Treat string as single line
+x		| Ignore white space in pattern
+--------------------------------------------
+                    **************
+
+
+Table 7.5. Options for the substitution operator.
+---------------------------------------------------------------
+Option  | Description
+---------------------------------------------------------------
+g       | Change all occurrences of the pattern
+i		| Ignore case in pattern
+e		| Evaluate replacement string as expression
+m		| Treat string to be matched as multiple lines
+o		| Evaluate only once
+s		| Treat string to be matched as single line
+x		| Ignore white space in pattern
+---------------------------------------------------------------
+                    **************
+

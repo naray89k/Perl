@@ -1,0 +1,31 @@
+-----------------------------------------------------
+Operator    Description
+-----------------------------------------------------
+-b			Is name a block device?
+-c			Is name a character device?
+-d			Is name a directory?
+-e			Does name exist?
+-f			Is name an ordinary file?
+-g			Does name have its setgid bit set?
+-k			Does name have its "sticky bit" set?
+-l			Is name a symbolic link?
+-o			Is name owned by the user?
+-p			Is name a named pipe?
+-r			Is name a readable file?
+-s			Is name a non-empty file?
+-t			Does name represent a terminal?
+-u			Does name have its setuid bit set?
+-w			Is name a writable file?
+-x			Is name an executable file?
+-z			Is name an empty file?
+-A			How long since name accessed?
+-B			Is name a binary file?
+-C			How long since name's inode accessed?
+-M			How long since name modified?
+-O			Is name owned by the "real user" only?*
+-R			Is name readable by the "real user" only?*
+-S			Is name a socket?
+-T			Is name a text file?
+-W			Is name writable by the "real user" only?*
+-X			Is name executable by the "real user" only?*
+-----------------------------------------------------
