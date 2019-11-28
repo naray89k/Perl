@@ -65,3 +65,12 @@ x		| Ignore white space in pattern
 ---------------------------------------------------------------
                     **************
 
+
+Table 7.6. Options for the translation operator.
+--------------------------------------------------------------------------------
+Option  | Description
+--------------------------------------------------------------------------------
+c       | Translate all characters not specified
+d       | Delete all specified characters
+s       | Replace multiple identical output characters with a single character
+--------------------------------------------------------------------------------

@@ -1,0 +1,23 @@
+Options for the Translation Operator.
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+The c option (c is for "complement") translates all characters that are not specified. For example, the statement
+    EX:
+        $string =~ tr/\d/ /c;
+    replaces everything that is not a digit with a space.
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+The d option deletes every specified character.
+    EX:
+        $string =~ tr/\t //d;
+    The d option deletes every specified character.
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+The s option (for "squeeze") checks the output from the translation. If two or more consecutive characters translate to the
+same output character, only one output character is actually used. For example, the following replaces everything that is
+not a digit and outputs only one space between digits.
+    EX:
+        $string =~ tr/0-9/ /cs;
+-----------------------------------------------------------------------------------------------------------------------------------------
